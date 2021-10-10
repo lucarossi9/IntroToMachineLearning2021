@@ -1,0 +1,11 @@
+# Path to the model that needs to be evaluated (can be None to use current model)
+date = "0519-2234"
+epoch = "18"
+eval_checkpoint_path = f"outputs/{date}/epoch_{epoch}_net.pt"
+
+evaluator = Evaluator(
+    model=model,
+    device=device,
+    loader=test_loader,
+    checkpoint_path=eval_checkpoint_path
+    )

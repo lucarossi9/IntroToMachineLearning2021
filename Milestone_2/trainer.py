@@ -199,7 +199,7 @@ class Trainer:
 
         # Save model
         if self.save_path is not None:
-            self._save_model(os.path.join(self.save_path, "most_recent.pt"), epoch)
+            self._save_model(os.path.join(self.save_path, f"epoch_{epoch}_net.pt"), epoch) ## this is what we added
 
         # Clear metrics
         self.train_loss_metric.reset()
