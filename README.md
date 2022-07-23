@@ -1,7 +1,12 @@
 # IntroToMachineLearning2021
-Two projects
 
-Second place at the competition page on AirCrowd https://www.aicrowd.com/challenges/a-i-in-civil-engineering-building-collapse
+* Second place at the competition page on AirCrowd https://www.aicrowd.com/challenges/a-i-in-civil-engineering-building-collapse .
+
+* For a general understanding of how we takled the problems please refer to the poster file.
+
+* The detailed explanation of the code is included in the two readme files in the folders of the two milestones.
+
+* Here below we report the problem description.
 
 # Milestone 1:
 
