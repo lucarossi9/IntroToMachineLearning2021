@@ -1,8 +1,0 @@
-numpy
-matplotlib
-pandas
-torch
-torchvision
-tqdm
-tensorboard
-tifffile
